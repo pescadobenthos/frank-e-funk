@@ -1,0 +1,22 @@
+How to output shell text:
+
+
+first create your shell file, either by touch or by cat > {filename}
+
+if by touch, ensure you rename with the ".sh" extension (by using mv)
+
+Use the command result=`cat {filename}` to call files
+
+Call result as follows: 
+     echo $result
+
+This will output your text file!  
+
+Note: cat is usually only used for small snippets of text, 
+
+to output larger text files ensure that a more appropriate call is used, such as vim
+
+To call your shell script, use location (in our case it will be in a directory we've created)  
+here's what we'll use to open it $./SHELL.SH *(shell filename)
+
+
