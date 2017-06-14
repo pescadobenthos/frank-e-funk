@@ -1,0 +1,31 @@
+HOW TO USE UNIX!
+
+This program will serve as your personal baby steps for getting into the UNIX command terminal interface.
+
+Our style is intended to serve as a learn as you go (OJT -- on the job training)method.  You will be learning and quickly applying things as you go.  This will be work, but you will have absolute results to show when you get done.
+
+Things we're looking to accomplish:
+
+1.txt: Explanation of the unix environment.  A brief gloss over how things work, how things are structured, things like an example of the prompt with explainations of how the line works and parts of its structure (command, option, argument)
+
+2.txt Simple Navigation; how to navigate within the Unix / Linux / SH environment.  This is where the shortcuts will be placed.
+
+3.txt Simple commands; how do I interact with what's going on?
+- date, day, ls, man, etc.
+
+4.txt Let's learn about how to manipulate our commands:
+- options, output structure, etc.  How to create directories andsome text files might work here..
+
+5.txt More powerful commands; things that might get you in trouble.
+- mv, rm, vim / vi
+
+6.txt Let's do something fun.
+- shell scripting (cool output styles; effects)
+	reiterate how this isn't intended to be all known at this time, but for a later date
+
+The Shell.  What's the shell.  What is a kernel?  THINGS YOU MIGHT NEED TO KNOW TO UNDERSTAND THE ENVIRONMENT YOU'RE WORKING IN.
+
+
+
+
+ 
