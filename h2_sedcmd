@@ -1,0 +1,34 @@
+How to use the 'sed' command:
+
+sed is used to read lines of text, but is more powerful (and mistifying) than that!
+
+to specify which lines you'd like to see, use commands such as:
+
+To print 1 line 
+$sed -n 5p file
+LINE 5 HERE
+where 5p represents the line that will be printed
+
+to get multiple lines, use something like this
+$sed -n -e 5p -e -8p file
+LINE 5 HERE
+LINE 8 HERE
+
+for ranges it'll go as follows:
+$sed -n 5,8p file
+LINE 5
+LINE 6
+LINE 7
+LINE 8
+
+More complexity!  Range and line at the same time!
+$sed -n -e 5,8p -e 10p file
+LINE 5
+LINE 6
+LINE 7
+LINE 8
+LINE 10
+     *note the lack of line 9 above.
+
+sed command can also be used to modify the outputs of cat by piping `sed` 
+commands
