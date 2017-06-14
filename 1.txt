@@ -1,0 +1,38 @@
+So here's how we're going to do this.
+
+The Unix environment was originally developed in the 1970s at AT&T's Bell Labs.
+
+Was originally developed by Ken Thompson, Dennis Ritchie, M.d. Mcllroy and J.F.Ossanna when they left the Multics mainframe project.
+
+November 3, 1971 was the day UNIX was released to the world.
+
+Today UNIX has been built upon, with many different flavors. (list a few examples)
+Unix distros: Red Hat Enterprise Linux, Fedora, SUSE Linux Enterprise, openSUSE, Debian GNU/Linux, Ubuntu, Linux Mint
+
+
+Welcome to the Command Line Interface a.k.a. the CLI.  
+Here's where we'll introduce you to how things work around here.
+
+Below is an example of what you'll be seeing when you open up bash.  If you've made it this far you can finish this tutorial!
+
+So here's how the CLI is structured (generally; it can be modified but that's for another time.)
+
+
+**					      **
+**		[]$rm -f foo.txt	      **
+**		 1   2  3    4		      **
+**					      **
+
+	1: Prompt
+	2: Command
+	3: Option
+	4: Argument
+
+Prompt:  This where commands are entered; it's where your dreams and desires can be translated into the UNIX interface (or where you spend hours to just get that one thing to work.  Don't worry, it's rewarding.)
+
+Command: This specifies your command.  What are you trying to do?  This is where you define that.
+
+Option:  Hey we want to be able to quickly customize some of the things we're trying to do, so this gives us that option.  Also, it's optional.
+
+Argument: What or where are you trying to effect a change.  To what type of file or folder?  Not used for all commands. 
+
